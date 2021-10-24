@@ -6,8 +6,7 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingresa un numero");
-        int numero;
-        numero = leer.nextInt();
+        int numero = leer.nextInt();
         leer.close();
         System.out.println("________________________________________________________________________________");
         List<Integer>list = new ArrayList();
