@@ -1,18 +1,10 @@
 package Ejercicios2;
-
-import javax.swing.plaf.PanelUI;
-import java.awt.desktop.SystemSleepEvent;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.Scanner;
-import java.util.concurrent.ExecutorService;
 
 public class Ejercicio1 {
    public static void main(String[] args) {
-//       Scanner sc = new Scanner(System.in);
-
-
+//     Scanner sc = new Scanner(System.in);
        List<String> lista = new ArrayList<>();
        lista.add("#1 - Cordoba");
        lista.add("#2 - Neuquen");
@@ -25,8 +17,8 @@ public class Ejercicio1 {
            lista.add(ciudad);
            contador ++ ;
        }*/
-       System.out.println( "mis ciudades favoritas son : "+ lista );
-          }
-
-
+       for (String c : lista) {
+           System.out.println(c);
+       }
+   }
 }
